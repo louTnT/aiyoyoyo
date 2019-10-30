@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>test</groupId>
+    <artifactId>test</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>io.siddhi</groupId>
+            <artifactId>siddhi-query-api</artifactId>
+            <version>5.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.siddhi</groupId>
+            <artifactId>siddhi-query-compiler</artifactId>
+            <version>5.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.siddhi</groupId>
+            <artifactId>siddhi-core</artifactId>
+            <version>5.0.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/io.siddhi.extension.script.js/siddhi-script-js -->
+        <dependency>
+            <groupId>io.siddhi.extension.script.js</groupId>
+            <artifactId>siddhi-script-js</artifactId>
+            <version>5.0.1</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/io.siddhi.extension.io.file/siddhi-io-file -->
+        <dependency>
+            <groupId>io.siddhi.extension.io.file</groupId>
+            <artifactId>siddhi-io-file</artifactId>
+            <version>2.0.1</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/io.siddhi.extension.io.file/siddhi-io-file-parent -->
+        <dependency>
+            <groupId>io.siddhi.extension.io.file</groupId>
+            <artifactId>siddhi-io-file-parent</artifactId>
+            <version>2.0.1</version>
+            <type>pom</type>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/io.siddhi.extension.map.text/siddhi-map-text-parent -->
+        <dependency>
+            <groupId>io.siddhi.extension.map.text</groupId>
+            <artifactId>siddhi-map-text-parent</artifactId>
+            <version>2.0.1</version>
+            <type>pom</type>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/io.siddhi.extension.map.text/siddhi-map-text -->
+        <dependency>
+            <groupId>io.siddhi.extension.map.text</groupId>
+            <artifactId>siddhi-map-text</artifactId>
+            <version>2.0.1</version>
+        </dependency><!-- https://mvnrepository.com/artifact/io.siddhi.extension.execution.map/siddhi-execution-map -->
+        <dependency>
+            <groupId>io.siddhi.extension.execution.map</groupId>
+            <artifactId>siddhi-execution-map</artifactId>
+            <version>5.0.1</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/io.siddhi.sdk/siddhi-sdk-parent -->
+        <!--&lt;!&ndash; https://mvnrepository.com/artifact/org.wso2.extension.siddhi.io.file/siddhi-io-file &ndash;&gt;-->
+        <!--<dependency>-->
+            <!--<groupId>org.wso2.extension.siddhi.io.file</groupId>-->
+            <!--<artifactId>siddhi-io-file</artifactId>-->
+            <!--<version>1.1.0</version>-->
+        <!--</dependency>-->
+
+
+        <!-- https://mvnrepository.com/artifact/io.siddhi.extension.map.json/siddhi-map-json -->
+        <dependency>
+            <groupId>io.siddhi.extension.map.json</groupId>
+            <artifactId>siddhi-map-json</artifactId>
+            <version>5.0.3</version>
+        </dependency>
+
+
+
+        <!--&lt;!&ndash; https://mvnrepository.com/artifact/org.wso2.extension.siddhi.map.json/siddhi-map-json &ndash;&gt;-->
+        <!--<dependency>-->
+            <!--<groupId>org.wso2.extension.siddhi.map.json</groupId>-->
+            <!--<artifactId>siddhi-map-json</artifactId>-->
+            <!--<version>5.0.1</version>-->
+        <!--</dependency>-->
+
+        <!-- https://mvnrepository.com/artifact/io.siddhi/siddhi-samples -->
+        <dependency>
+            <groupId>io.siddhi</groupId>
+            <artifactId>siddhi-samples</artifactId>
+            <version>5.0.0</version>
+            <type>pom</type>
+        </dependency>
+
+
+
+
+
+
+
+        <!--        <dependency>
+                    <groupId>log4j</groupId>
+                    <artifactId>log4j</artifactId>
+                    <version>1.2.17</version>
+                </dependency>-->
+
+    </dependencies>
+
+
+</project>
+
